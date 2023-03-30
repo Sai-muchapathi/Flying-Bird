@@ -1,0 +1,54 @@
+body {
+    background: silver;
+}
+
+button {
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#restarting, #initial, #details {
+    text-align: center;
+    font-size: 30px;
+}
+
+#btnRestart, #details {
+    display: none;
+}
+
+#container {
+    height: 400px;
+    width: 90%;
+    background-color: white;
+    margin: 30px auto;
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+
+#bird {
+    background: url("images/bird.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 55px;
+    position: absolute;
+    top: 20%;
+    left: 180px;
+}
+
+.pipe {
+    width: 50px;
+    background-color: gray;
+    height: 130px;
+    position: absolute;
+    right: -50px;
+}
+
+#pipe1 {
+    top: 0px;
+}
+
+#pipe2 {
+    bottom: 0px;
+}
